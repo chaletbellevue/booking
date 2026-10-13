@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f1e9">
+  <meta name="description" content="Chalet Bellevue in Bellwald-Ried: zwei gemütliche Ferienwohnungen mit Blick auf das Weisshorn. Einzeln oder gemeinsam buchbar.">
+  <title>Chalet Bellevue | Bellwald-Ried</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#start" aria-label="Chalet Bellevue, Startseite">
+      <span class="wordmark-icon" aria-hidden="true"><img src="Fotos/emblem.jpg" alt=""></span>
+      <span>CHALET <strong>BELLEVUE</strong><small> BELLWALD · WALLIS</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Hauptnavigation">
+      <a href="#wohnungen" data-i18n="navApartments">Wohnungen</a>
+      <a href="#erleben" data-i18n="navExplore">Erleben</a>
+      <a href="#lage" data-i18n="navLocation">Lage</a>
+      <a class="nav-cta" href="#anfrage" data-i18n="navRequest">Anfragen</a>
+    </nav>
+    <label class="language-picker">
+      <span class="sr-only" data-i18n="languageLabel">Sprache wählen</span>
+      <select id="language-select" aria-label="Sprache">
+        <option value="de">DE</option>
+        <option value="en">EN</option>
+        <option value="nl">NL</option>
+      </select>
+    </label>
+  </header>
+
+  <main>
+    <section class="hero" id="start">
+      <img class="hero-image" src="Fotos/Bellevue/1767630534-Agten-Immobilien-Chalet-kaufen-Bellwald-Goms-KI.png-1536x1024.webp" alt="Winterlicher Blick über die Chalets von Bellwald ins Tal">
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="heroEyebrow">BELLWALD · WALLIS · SCHWEIZ</p>
+        <h1 data-i18n="heroTitle">Eine Aussicht,<br>die verzaubert.</h1>
+        <p class="hero-intro" data-i18n="heroIntro">Zwei gemütliche Wohnungen. Ein weiter Blick auf die Walliser Viertausender. Und Zeit, einfach hier zu sein.</p>
+        <a class="button button-light" href="#wohnungen"><span data-i18n="heroButton">Das Chalet entdecken</span><span aria-hidden="true">↘</span></a>
+      </div>
+      <p class="hero-caption" data-i18n="heroCaption">CHALET BELLEVUE · BELLWALD-RIED</p>
+    </section>
+
+    <section class="intro section-wrap">
+      <p class="eyebrow eyebrow-dark" data-i18n="introEyebrow">ZWEI WOHNUNGEN · EIN CHALET</p>
+      <div class="intro-grid">
+        <h2 data-i18n="introTitle">Im Wallis<br>zu Hause</h2>
+        <div class="intro-text">
+          <p data-i18n="introBody">Im Weiler Ried, oberhalb von Bellwald, wartet ein Stück Wallis zum Ankommen. Das Chalet Bellevue lässt sich als ganzes Haus mit beiden Wohnungen mieten oder ganz flexibel einzeln: oben die grosszügige Belalp, unten die behagliche Bailey.</p>
+          <a class="text-link" href="#wohnungen"><span data-i18n="introLink">Die Wohnungen vergleichen</span><span aria-hidden="true">↘</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="apartments" id="wohnungen">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><p class="eyebrow eyebrow-dark" data-i18n="apartmentsEyebrow">ANKOMMEN & WOHLFÜHLEN</p><h2 data-i18n="apartmentsTitle">Zwei Wohnungen.<br>Gemeinsame Momente</h2></div>
+          <p data-i18n="apartmentsNote">Gemeinsam reisen, mit Freunden teilen oder ganz für sich sein: Beide Wohnungen können einzeln oder zusammen gebucht werden.</p>
+        </div>
+        <div class="apartment-grid">
+          <article class="apartment-card belalp-card">
+            <div class="photo-gallery apartment-photo photo-belalp" data-gallery="belalp" data-alt="Innenansichten der Ferienwohnung Belalp">
+              <img class="gallery-image" src="Fotos/Belalp/1753685096-Agten-Immoblilien-Chalet-kaufen-Bellwald_(35).jpg-3000x2250.webp" alt="Innenansichten der Ferienwohnung Belalp" loading="lazy">
+              <button class="gallery-arrow gallery-prev" type="button" data-gallery-prev data-i18n-aria="galleryPrevious" aria-label="Vorheriges Bild"><span aria-hidden="true">‹</span></button>
+              <span class="gallery-count" aria-live="polite">1 / 17</span>
+              <button class="gallery-arrow gallery-next" type="button" data-gallery-next data-i18n-aria="galleryNext" aria-label="Nächstes Bild"><span aria-hidden="true">›</span></button>
+            </div>
+            <div class="apartment-body">
+              <div class="apartment-title-row"><div><p class="eyebrow eyebrow-dark" data-i18n="upperApartment">OBERGESCHOSS</p><h3>Belalp</h3></div><span class="capacity"><strong>6–7</strong><small data-i18n="guests">Gäste</small></span></div>
+              <p class="apartment-description" data-i18n="belalpDescription">Licht, Holz und ein grosszügiger Blick. Mit offener Galerie für lange Abende und zusätzliche Schlafplätze.</p>
+              <ul class="feature-list"><li data-i18n="belalpBeds">2 Schlafzimmer + offene Galerie</li><li data-i18n="sharedFeatures">Küche · Dusche/WC · WLAN · Waschmaschine</li><li data-i18n="belalpOutdoor">Rundum-Balkon mit Weisshornblick</li></ul>
+              <div class="rate-table">
+                <div class="rate-row rate-heading"><span data-i18n="seasonLabel">Saison</span><span data-i18n="perNight">pro Nacht</span><span data-i18n="perWeek">pro Woche</span></div>
+                <div class="rate-row"><span data-i18n="baseSeason">Basiszeit</span><strong>CHF 200</strong><strong>CHF 1’350</strong></div>
+                <div class="rate-row"><span data-i18n="summerSeason">Sommer</span><strong>CHF 220</strong><strong>CHF 1’450</strong></div>
+                <div class="rate-row"><span data-i18n="autumnSeason">Herbst</span><strong>CHF 250</strong><strong>CHF 1’650</strong></div>
+                <div class="rate-row"><span data-i18n="winterSeason">Winter inkl. Feiertage & Sportferien</span><strong>CHF 280</strong><strong>CHF 1’850</strong></div>
+              </div>
+            </div>
+          </article>
+          <article class="apartment-card bailey-card">
+            <div class="photo-gallery apartment-photo photo-bailey" data-gallery="bailey" data-alt="Innenansichten der Ferienwohnung Bailey">
+              <img class="gallery-image" src="Fotos/Bailey/1753685078-Agten-Immoblilien-Chalet-kaufen-Bellwald_(23).jpg-3000x2250.webp" alt="Innenansichten der Ferienwohnung Bailey" loading="lazy">
+              <button class="gallery-arrow gallery-prev" type="button" data-gallery-prev data-i18n-aria="galleryPrevious" aria-label="Vorheriges Bild"><span aria-hidden="true">‹</span></button>
+              <span class="gallery-count" aria-live="polite">1 / 7</span>
+              <button class="gallery-arrow gallery-next" type="button" data-gallery-next data-i18n-aria="galleryNext" aria-label="Nächstes Bild"><span aria-hidden="true">›</span></button>
+            </div>
+            <div class="apartment-body">
+              <div class="apartment-title-row"><div><p class="eyebrow eyebrow-dark" data-i18n="groundFloor">ERDGESCHOSS</p><h3>Bailey</h3></div><span class="capacity"><strong>4</strong><small data-i18n="guests">Gäste</small></span></div>
+              <p class="apartment-description" data-i18n="baileyDescription">Ein behaglicher Rückzugsort für Familien und kleine Gruppen, mit Gartensitzplatz und freiem Blick in die Berge.</p>
+              <ul class="feature-list"><li data-i18n="baileyBeds">2 Schlafzimmer: Doppelbett & Etagenbett</li><li data-i18n="sharedFeatures">Küche · Dusche/WC · WLAN · Waschmaschine</li><li data-i18n="baileyOutdoor">Gartensitzplatz mit Weisshornblick</li></ul>
+              <div class="rate-table">
+                <div class="rate-row rate-heading"><span data-i18n="seasonLabel">Saison</span><span data-i18n="perNight">pro Nacht</span><span data-i18n="perWeek">pro Woche</span></div>
+                <div class="rate-row"><span data-i18n="baseSeason">Basiszeit</span><strong>CHF 180</strong><strong>CHF 1’150</strong></div>
+                <div class="rate-row"><span data-i18n="summerSeason">Sommer</span><strong>CHF 190</strong><strong>CHF 1’250</strong></div>
+                <div class="rate-row"><span data-i18n="autumnSeason">Herbst</span><strong>CHF 210</strong><strong>CHF 1’350</strong></div>
+                <div class="rate-row"><span data-i18n="winterSeason">Winter inkl. Feiertage & Sportferien</span><strong>CHF 240</strong><strong>CHF 1’550</strong></div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="combined-rate">
+          <div class="photo-gallery combined-gallery" data-gallery="bellevue" data-alt="Aussen- und Innenansichten des Chalet Bellevue">
+            <img class="gallery-image" src="Fotos/Bellevue/1753685063-Agten-Immoblilien-Chalet-kaufen-Bellwald_(11).jpg-3000x1686.webp" alt="Aussen- und Innenansichten des Chalet Bellevue" loading="lazy">
+            <button class="gallery-arrow gallery-prev" type="button" data-gallery-prev data-i18n-aria="galleryPrevious" aria-label="Vorheriges Bild"><span aria-hidden="true">‹</span></button>
+            <span class="gallery-count" aria-live="polite">1 / 10</span>
+            <button class="gallery-arrow gallery-next" type="button" data-gallery-next data-i18n-aria="galleryNext" aria-label="Nächstes Bild"><span aria-hidden="true">›</span></button>
+          </div>
+          <div class="combined-details">
+            <div><p class="eyebrow eyebrow-dark" data-i18n="combinedTitle">DAS GANZE CHALET</p><h3 class="combined-name">Bellevue</h3><p class="combined-subtitle" data-i18n="combinedSubtitle">Beide Wohnungen gemeinsam</p></div>
+            <div class="rate-table combined-rate-table">
+              <div class="rate-row rate-heading"><span data-i18n="seasonLabel">Saison</span><span data-i18n="perNight">pro Nacht</span><span data-i18n="perWeek">pro Woche</span></div>
+              <div class="rate-row"><span data-i18n="baseSeason">Basiszeit</span><strong>CHF 380</strong><strong>CHF 2’500</strong></div>
+              <div class="rate-row"><span data-i18n="summerSeason">Sommer</span><strong>CHF 410</strong><strong>CHF 2’700</strong></div>
+              <div class="rate-row"><span data-i18n="autumnSeason">Herbst</span><strong>CHF 460</strong><strong>CHF 3’000</strong></div>
+              <div class="rate-row"><span data-i18n="winterSeason">Winter inkl. Feiertage & Sportferien</span><strong>CHF 520</strong><strong>CHF 3’400</strong></div>
+            </div>
+          </div>
+          <small class="combined-note" data-i18n="combinedNote">Kein pauschaler Saisonaufschlag. Wintersaisonpreise gelten auch über Weihnachten, Neujahr und Sportferien.</small>
+        </div>
+        <p class="price-note" data-i18n="priceNote">Mindestaufenthalt 3 Nächte. Strom und Wasser inklusive. Endreinigung pro Buchung: Belalp CHF 200, Bailey CHF 150, beide Wohnungen CHF 350. Bettwäsche auf Wunsch. Kurtaxe gemäss Bellwalder Regelung.</p>
+      </div>
+    </section>
+
+    <section class="view-band">
+      <img src="Fotos/Bellevue/1753685056-Agten-Immoblilien-Chalet-kaufen-Bellwald_(5).jpg-3000x1686.webp" alt="Sommerliche Aussicht und Chalets in Bellwald" loading="lazy">
+      <div class="view-band-copy"><p class="eyebrow" data-i18n="viewEyebrow">DRAUSSEN DIE BERGE · DRINNEN DAS ZUHAUSE</p><h2 data-i18n="viewTitle">Der schönste<br>Platz am Tisch?</h2><p data-i18n="viewBody">Vielleicht direkt am Fenster. Vielleicht draussen auf der Terrasse. Der Blick ins Tal und hinüber zum Weisshorn ist immer dabei.</p></div>
+    </section>
+
+    <section class="amenities section-wrap">
+      <div class="amenities-heading"><p class="eyebrow eyebrow-dark" data-i18n="amenitiesEyebrow">GUT AUSGESTATTET FÜR ECHTE BERGTAGE</p><h2 data-i18n="amenitiesTitle">Alles da. Und doch<br>weit weg vom Alltag.</h2></div>
+      <div class="amenities-list">
+        <div><span class="amenity-number">01</span><p data-i18n="amenity1">Voll ausgestattete Küche</p><span>↗</span></div>
+        <div><span class="amenity-number">02</span><p data-i18n="amenity2">Bad mit Dusche & WC</p><span>↗</span></div>
+        <div><span class="amenity-number">03</span><p data-i18n="amenity3">WLAN & Waschmaschine</p><span>↗</span></div>
+        <div><span class="amenity-number">04</span><p data-i18n="amenity4">Kamin mit Kochplatte (Belalp)</p><span>↗</span></div>
+        <div><span class="amenity-number">05</span><p data-i18n="amenity5">Haustiere willkommen</p><span>↗</span></div>
+        <div><span class="amenity-number">06</span><p data-i18n="amenity6">Garage & zusätzlicher Aussenplatz</p><span>↗</span></div>
+      </div>
+    </section>
+
+    <section class="experiences" id="erleben">
+      <div class="section-wrap">
+        <p class="eyebrow" data-i18n="experienceEyebrow">ZU JEDER JAHRESZEIT</p>
+        <div class="experience-heading"><h2 data-i18n="experienceTitle">Zauberhaftes<br>Bellwald</h2><p data-i18n="experienceIntro">Bellwald ist klein genug zum Durchatmen und gross genug für jeden Tag ein neues Draußen.</p></div>
+        <div class="experience-grid">
+          <article><span class="season-tag" data-i18n="summerTag">SOMMER</span><h3 data-i18n="summerTitle">Wege, Trails<br>& Weitblick.</h3><div class="photo-gallery season-gallery" data-gallery="bellwaldSummer" data-alt="Sommeransichten aus Bellwald"><img class="gallery-image" src="Fotos/Bellwald/1753685075-Agten-Immoblilien-Chalet-kaufen-Bellwald_(21).jpg-3000x1687.webp" alt="Sommeransichten aus Bellwald" loading="lazy"><button class="gallery-arrow gallery-prev" type="button" data-gallery-prev data-i18n-aria="galleryPrevious" aria-label="Vorheriges Bild"><span aria-hidden="true">‹</span></button><span class="gallery-count" aria-live="polite">1 / 3</span><button class="gallery-arrow gallery-next" type="button" data-gallery-next data-i18n-aria="galleryNext" aria-label="Nächstes Bild"><span aria-hidden="true">›</span></button></div><p data-i18n="summerBody">Wanderwege direkt vor der Tür, der Bikepark Bellwald, Spielplätze und Ausflüge in die Aletsch Arena. Das Goms lockt mit Langlauf, das Wallis mit endlosen Gipfeln.</p><a href="https://www.bellwald.ch/sommer" target="_blank" rel="noreferrer" class="text-link text-link-light"><span data-i18n="summerLink">Sommer in Bellwald</span><span aria-hidden="true">↗</span></a></article>
+          <article><span class="season-tag" data-i18n="winterTag">WINTER</span><h3 data-i18n="winterTitle">Schnee vor der Tür.<br>Ruhe danach.</h3><div class="photo-gallery season-gallery" data-gallery="bellwaldWinter" data-alt="Winteransicht der Chalets in Bellwald"><img class="gallery-image" src="Fotos/Bellevue/1770016584-Agten-Immobilien-Cahlet-kaufen-Bellwald_(2).jpg-3000x1687.webp" alt="Winteransicht der Chalets in Bellwald" loading="lazy"><button class="gallery-arrow gallery-prev" type="button" data-gallery-prev data-i18n-aria="galleryPrevious" aria-label="Vorheriges Bild"><span aria-hidden="true">‹</span></button><span class="gallery-count" aria-live="polite">1 / 1</span><button class="gallery-arrow gallery-next" type="button" data-gallery-next data-i18n-aria="galleryNext" aria-label="Nächstes Bild"><span aria-hidden="true">›</span></button></div><p data-i18n="winterBody">Familienfreundliche Pisten, Skischule und Winterwanderwege in Bellwald. Langlaufloipen im Goms und weitere Walliser Skigebiete sind schöne Ziele für einen Tagesausflug.</p><a href="https://www.bellwald.ch/winter" target="_blank" rel="noreferrer" class="text-link text-link-light"><span data-i18n="winterLink">Winter in Bellwald</span><span aria-hidden="true">↗</span></a></article>
+        </div>
+        <div class="daytrips"><p class="eyebrow" data-i18n="daytripsEyebrow">GUTE ZIELE FÜR EINEN TAGESAUSFLUG · FAHRZEITEN AB RIED</p><div><span><strong>Aletsch Arena</strong><small data-i18n="aletschTime">Fiesch ca. 15 Min. mit dem Auto, weiter mit der Bergbahn</small></span><span><strong>Langlauf im Goms</strong><small data-i18n="gomsTime">je nach Loipe ca. 25–40 Min. mit dem Auto</small></span><span><strong>Saas-Fee</strong><small data-i18n="saasTime">ca. 1,5–2 Std. mit dem Auto, je nach Route und Verkehr</small></span><span><strong>Zermatt</strong><small data-i18n="zermattTime">Täsch ca. 1,5–2 Std. mit dem Auto, weiter mit dem Zug</small></span></div><small class="trip-caveat" data-i18n="tripCaveat">Ungefähre Richtwerte; Wetter, Verkehr, Fahrplan und saisonale Strassenverhältnisse können die Reisezeit verändern.</small></div>
+      </div>
+    </section>
+
+    <section class="location section-wrap" id="lage">
+      <div class="location-copy"><p class="eyebrow eyebrow-dark" data-i18n="locationEyebrow">OBEN ANKOMMEN. GUT VERBUNDEN SEIN.</p><h2 data-i18n="locationTitle">Ein Weiler<br>für sich. Ein Tal<br>voller Wege.</h2><p data-i18n="locationBody">Das Chalet liegt im schönen Weiler Ried oberhalb von Bellwald. Mit dem Auto erreichst du Bellwald und die Talstation in wenigen Minuten. Mit dem Zug fährst du bis Fiesch; von dort geht es mit der Bergbahn hinauf nach Bellwald. Die letzte Strecke nach Ried bitte vorab mit dem aktuellen Fahrplan planen.</p><a class="text-link" href="https://www.sbb.ch/de" target="_blank" rel="noreferrer"><span data-i18n="timetableLink">Verbindungen bei der SBB planen</span><span aria-hidden="true">↗</span></a></div>
+      <div class="location-image"><img src="Fotos/Bellevue/1753685056-Agten-Immoblilien-Chalet-kaufen-Bellwald_(5).jpg-3000x1686.webp" alt="Weitblick über das Tal und die Walliser Alpen" loading="lazy"><span data-i18n="locationCaption">DER BLICK VON RIED INS TAL</span></div>
+    </section>
+
+    <section class="guest-card-band">
+      <div class="guest-card-mark" aria-hidden="true">B<span>↗</span></div>
+      <div><p class="eyebrow" data-i18n="guestCardEyebrow">MEHR WALLIS MIT DER GÄSTEKARTE</p><h2 data-i18n="guestCardTitle">Kleine Karte.<br>Mehr Möglichkeiten.</h2></div>
+      <div class="guest-card-copy"><p data-i18n="guestCardBody">Mit der Bellwald Gästekarte fahren Gäste im Sommer kostenlos mit den Bellwalder Sportbahnen (Bikepark und Funsportgeräte ausgenommen). Im Winter gehören unter anderem Skibus und Kinderbetreuung zu den Vorteilen. Die Leistungen sind saisonabhängig; der Gastgeber stellt die Karte vor der Anreise bereit.</p><a href="https://www.bellwald.ch/planen-buchen/service-vorteile/gaestekarte-kurtaxe#c12560" target="_blank" rel="noreferrer" class="text-link text-link-light"><span data-i18n="guestCardLink">Aktuelle Gästekarten-Vorteile ansehen</span><span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="booking section-wrap" id="anfrage">
+      <div class="booking-copy">
+        <div class="booking-heading"><div><p class="eyebrow eyebrow-dark" data-i18n="bookingEyebrow">DEINE AUSZEIT BEGINNT HIER</p><h2 data-i18n="bookingTitle">Wann soll’s<br>in die Berge gehen?</h2></div><img class="booking-emblem" src="Fotos/emblem.jpg" alt="" aria-hidden="true" loading="lazy"></div>
+        <p data-i18n="bookingBody">Wähle Wohnung und Reisedaten. Wir prüfen die Verfügbarkeit und melden uns persönlich zurück.</p>
+        <p class="booking-contact"><span data-i18n="emailContactLabel">Schreib uns gerne</span><a href="mailto:chalet.bellevue.vs@gmail.com">chalet.bellevue.vs@gmail.com</a></p>
+        <p class="booking-note"><span class="status-dot"></span><span data-i18n="calendarStatus">Der Live-Belegungskalender wird noch eingerichtet. Verfügbarkeit aktuell auf Anfrage.</span></p>
+      </div>
+      <form class="booking-form" id="booking-form">
+        <label><span data-i18n="apartmentLabel">Wohnung</span><select name="apartment" required><option value="Belalp">Belalp</option><option value="Bailey">Bailey</option><option value="Chalet Bellevue" data-i18n="bothApartments">Chalet Bellevue · beide Wohnungen</option></select></label>
+        <label><span data-i18n="guestNameLabel">Dein Name</span><input type="text" name="guestName" autocomplete="name" required></label>
+        <label><span data-i18n="guestEmailLabel">Deine E-Mail-Adresse</span><input type="email" name="guestEmail" autocomplete="email" required></label>
+        <div class="date-row"><label><span data-i18n="arrivalLabel">Anreise</span><input type="date" name="arrival" required></label><label><span data-i18n="departureLabel">Abreise</span><input type="date" name="departure" required></label></div>
+        <div class="guest-grid">
+          <label><span data-i18n="adultCountLabel">Erwachsene</span><input type="number" name="adults" min="0" max="11" value="2" required></label>
+          <label><span data-i18n="childCountLabel">Kinder</span><input type="number" name="children" min="0" max="11" value="0" required></label>
+          <label><span data-i18n="dogCountLabel">Hunde</span><input type="number" name="dogs" min="0" value="0" required></label>
+        </div>
+        <button class="button button-dark" type="submit"><span data-i18n="bookingButton">E-Mail-Anfrage vorbereiten</span><span aria-hidden="true">↗</span></button>
+        <p class="form-small" data-i18n="formNote">Dein E-Mail-Programm öffnet sich mit den Angaben; gesendet wird erst nach deiner Bestätigung.</p>
+        <div class="form-result" id="form-result" role="status" aria-live="polite" hidden></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="wordmark footer-wordmark" href="#start"><span class="wordmark-icon" aria-hidden="true"><img src="Fotos/emblem.jpg" alt=""></span><span>CHALET <strong>BELLEVUE</strong><small> BELLWALD · WALLIS</small></span></a>
+    <p data-i18n="footerLine">Zwei Wohnungen. Ein Zuhause in den Bergen.</p>
+    <a href="#start" class="back-top"><span data-i18n="backTop">Zurück nach oben</span> ↑</a>
+    <small class="footer-note">© <span id="year"></span> Chalet Bellevue · Bellwald-Ried</small>
+  </footer>
+</body>
+</html>
